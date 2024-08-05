@@ -1,4 +1,4 @@
-[![shield](https://img.shields.io/badge/Sub--Mod-Real%20Life%20Mod-green?style=flat)]
+![shield](https://img.shields.io/badge/Sub--Mod-Real%20Life%20Mod-green?style=flat)
 
 # Real Life Chemicals
 
