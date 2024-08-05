@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 26. 03. 2024
+  Major Features:
+    - Initial Beta Release.
+    - Added Hydrogen, Helium, Oxygen.
+    - Added Chemistry, Oxygen Turbine, Combustion Energy techonologies.
+    - Added the Combustion Chamber and Generator.
+
+  Minor Features:
+    - Added a subgroup for gas chemicals.
+    - Added a placeholder icon.
+
+  Scripting:
+    - Added a function to insert tables automatically using a list.
+
+  Locale:
+    - Added en translation.
