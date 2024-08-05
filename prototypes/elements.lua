@@ -22,7 +22,7 @@ data:extend{hydrogen}
 -- Recipes
 local electrolysis = {
   type = "recipe",
-  category = "crafting-with-fluid",
+  category = "chemistry",
   name = "electrolysis",
   icons = {
     {
