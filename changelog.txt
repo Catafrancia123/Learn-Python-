@@ -1,18 +1,15 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
-Date: 26. 03. 2024
+Date: 10. 04. 2024
   Major Features:
     - Initial Beta Release.
-    - Added Hydrogen, Helium, Oxygen.
-    - Added Chemistry, Oxygen Turbine, Combustion Energy techonologies.
-    - Added the Combustion Chamber and Generator.
+    - Added Sand, Glass, Flask (for science packs), Better offshore pump, Small iron electric pole.
+    - Configured Vanilla objects to have glass.
+    - Merged Real Life Chemicals with this mod.
 
   Minor Features:
-    - Added a subgroup for gas chemicals.
-    - Added a placeholder icon.
-
-  Scripting:
-    - Added a function to insert tables automatically using a list.
+    - Added icons.
+    - Added a greeting message when you start the game.
 
   Locale:
     - Added en translation.

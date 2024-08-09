@@ -1,20 +1,29 @@
 {
-    "name": "real-life-chemicals",
+    "name": "real-life-mod",
     "version": "0.1.0",
-    "title": "Real Life Chemicals",
-    "author": "catamapp",
+    "title": "Real Life Mod",
+    "author": "crankymatt, catamapp",
     "factorio_version": "1.1",
     "dependencies": [
-        "base >= 1.1", 
+        "base >= 1.1",
+        "alien-biomes >= 0.6.8",
+        "robot_attrition >= 0.5.15",
+        
+	    "! aai-industry",
+	    "! space-exploration",
+        "! Krastorio2",
         "! angelsindustries",
         "! angelspetrochem",
         "! angelsrefining",
-        "! angelssmelting", 
-        "! Krastorio2",
-        "! pycoalprocessing",
-        "! pyindustry",
-        "! pyhightech",
-        "! PyBlock"
+        "! angelssmelting",
+        "! bobelectronics",
+        "! bobores",
+        "! bobplates",
+        "! bobpower",
+        "! bobrevamp",
+        "! bobtech",
+        "! bobvehicleequipment",
+        "! bobwarfare"
     ],
-    "description": "This mod adds real life chemicals in game to complex some game mechanics. Warning: It is not recommended to play with mods that expand the Vanilla Factorio science tree as it can cause the mod to break."
+    "description": "This mod makes the base game VERY realistic (e.g. science packs require flasks), and aims to mimic real life as much as possible."
 }
