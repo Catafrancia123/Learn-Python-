@@ -1,7 +1,8 @@
 -- Requires
 require("__real-life-mod__/prototypes/technology.lua")
-require("__real-life-mod__/prototypes/stuff.lua")
-require("__real-life-mod__/prototypes/elements.lua")
+require("__real-life-mod__/prototypes/base.lua")
+require("__real-life-mod__/prototypes/irl-chemicals.lua")
+require("__real-life-mod__/prototypes/irl-weapons.lua")
 
 -- ItemGroups
 local periodic_table = {
@@ -39,3 +40,7 @@ table.insert(data.raw['recipe']['poison-capsule'].ingredients, {"irl-glass", 2})
 table.insert(data.raw['recipe']['night-vision-equipment'].ingredients, {"irl-glass", 5})
 table.insert(data.raw['recipe']['slowdown-capsule'].ingredients, {"irl-glass", 2})
 table.insert(data.raw['recipe']['satellite'].ingredients, {"irl-glass", 200})
+table.insert(data.raw['technology']['military-2'].effects, {type = "unlock-recipe", recipe = "irl-light-machine-gun-recipe"})
+table.insert(data.raw['technology']['artillery'].effects, {type = "unlock-recipe", recipe = "irl-nuclear-artillery-shell-recipe"})
+table.insert(data.raw['technology']['logistics'].effects, {type = "unlock-recipe", recipe = "irl-small-iron-electric-pole-recipe"})
+data.raw['ammo']['artillery-shell'].stack_size = 5
